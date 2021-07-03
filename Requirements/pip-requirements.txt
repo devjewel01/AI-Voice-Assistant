@@ -1,0 +1,11 @@
+pyaudio>=0.2.11
+gTTS==2.2.1
+urllib3>=1.24.1
+python-vlc>=3.0.4106
+pyyaml>=3.13
+numpy>=1.15.4
+pycryptodomex==3.7.2
+googletrans==3.1.0a0
+google-cloud-texttospeech==0.3.0
+google-cloud-speech==0.36.05
+soundfile
