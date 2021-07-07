@@ -2,6 +2,7 @@
 **Artificial Intelligence based Personal voice assistant using python.**
 
 ## TODO:
+- [X] Custome conversation
 - [X] Search [Wikipedia](https://www.wikipedia.org/)
 - [ ] Track COVID-19
 - [ ] Help in Shopping 
@@ -12,7 +13,7 @@
 - [ ] Capturing images.
 - [ ] Predicts time, date, weather report etc. 
 - [ ] Search Videos on [Youtube](https://www.youtube.com/)
-- [ ] Say Jokes :grin:
+- [X] Say Jokes :grin:
 - [ ] read Face Emotion
 - [ ] Using Gui
 - [ ] running in background
@@ -26,17 +27,19 @@ https://github.com/devjewel01/AI-Voice-Assistant
 ```
 cd AI-Voice-Assistant
 ```
+**For Windows users:**
+
 ```
-cd scripts
+pip install -r requirements.txt
+```
+
+**For Linux users:**
+
+```
+pip3 install -r requirements.txt
 ```
 ```
-sudo chmod +x assistant-installer.sh
-```
-```
-sudo ./assistant-installer.sh 
-```
-```
-cd ../src
+cd src
 ```
 ```
 python3 main.py

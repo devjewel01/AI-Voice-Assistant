@@ -1,21 +1,15 @@
-Conversation:
-  Question:
-    1:
-      - 'I love you'
-    2:
-      - 'What is your name'
-    3:
-      - 'Do you have any family'
+Question:
+  1:
+    - 'I love you'
+  2:
+    - 'What is your name'
+  3:
+    - 'Do you have any family'
 
-
-
-  Answer:
-    1:
-      - 'I love you too'
-      - 'Sorry, I have a boyfriend'
-      - 'Sorry, I only love my devoloper'
- 
-    2:
-      - 'My have no name yet'
-    3:
-      - 'The whole world is my family'
+Answer:
+  1:
+    - 'I love you too'
+  2:
+    - 'My have no name yet'
+  3:
+    - 'The whole world is my family'
