@@ -11,6 +11,7 @@
 
 ## Features:
 - [X] Custome conversation
+- [ ] Talking in Bangali language
 - [X] Search [Wikipedia](https://www.wikipedia.org/)
 - [ ] Track COVID-19
 - [ ] Help in Shopping 
