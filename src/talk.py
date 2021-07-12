@@ -10,9 +10,12 @@ with open('{}/src/conversation.yaml'.format(ROOT_PATH),'r', encoding='utf8') as 
     custom_conversation = yaml.load(conf, Loader=yaml.FullLoader)
 
 engine = pyttsx3.init()
+engine.setProperty('rate', 150)
 voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[1].id)
+#engine.setProperty('voice', voices[1].id) #For Windows
+engine.setProperty("voice", 'english+f4') #For Linux 
 
-def talk(text):
+
+def speak(text):
     engine.say(text)
     engine.runAndWait()

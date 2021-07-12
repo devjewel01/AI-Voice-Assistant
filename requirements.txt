@@ -4,5 +4,10 @@ pywhatkit
 wikipedia
 pyjokes
 pyyaml
+beautifulsoup4
+requests
+twilio
+pyjokes
+
 
 
