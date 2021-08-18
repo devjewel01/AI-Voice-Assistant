@@ -12,6 +12,7 @@ import smtplib
 import ctypes
 import time
 import shutil
+import pyautogui
 from urllib.request import urlopen
 
 listener = sr.Recognizer()
@@ -194,6 +195,13 @@ if __name__ == '__main__':
             speak("Make sure all the application are closed before sign-out")
             time.sleep(5)
             subprocess.call(["shutdown", "/l"])
+            
+        elif 'screenshot' in query:
+            speak("And the file name would be...")
+            name = takeCommand()
+            pyautogui.screenshot(f"File_Location{name}.png")
+            speak("The screenshot has been taken sir, check this out")
+            os.startfile("File_Location")
              
 
  
