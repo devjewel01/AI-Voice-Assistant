@@ -75,15 +75,3 @@ python3 main.py
 
 
 
-## 🌟 Contributors
-Thanks goes to these wonderful people ✨✨:
-<table>
-	<tr>
-        <td>
-		<a href="https://github.com/devjewel01/AI-Voice-Assistant/graphs/contributors">
-  			<img src="https://contrib.rocks/image?repo=devjewel01/AI-Voice-Assistant" />
-		</a>
-	    </td>
-	</tr>
-</table>
-
